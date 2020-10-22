@@ -1,7 +1,9 @@
 ## Overview
-
+ 
 A CLI For Kong API Gateway &amp; Service Mesh
 
+## Notes:
+this sourcecode forked from https://github.com/xigang/kongctl which fixed problem on build
 ## Features
 
 - Support for CURD of upstream, target, service, route, consumer, plugin objects.
@@ -14,7 +16,9 @@ Make sure you have a working Go environment. Go version 1.2+ is supported. [See 
 To install cli, simply run:
 
 ```
-$ go get github.com/xigang/kongctl
+$ ${GOROOT}
+$ go get github.com/pqhung1983/kongctl
+$ cd github.com/pqhung1983/kongctl
 $ make
 ```
 Move kongctl binary to your `PATH`
