@@ -3,7 +3,7 @@
 A CLI For Kong API Gateway &amp; Service Mesh
 
 ## Notes:
-this sourcecode forked from https://github.com/xigang/kongctl which fixed problem on build
+this sourcecode forked from https://github.com/xigang/kongctl resolved build problems
 ## Features
 
 - Support for CURD of upstream, target, service, route, consumer, plugin objects.
